@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Formulário</h1>
+  <p id="description">Formulário de pesquisa</p>
+  <form id="survey-form">
+    <label id="name-label" for="name">Nome:</label>
+    <input id="name" placeholder="Giovanna" type="text" required/>
+    <br>
+    <label id="email-label" for="email">Email:</label>
+    <input id="email" placeholder="giovanna@email.com"  type="email" required/>
+    <br>
+    <label id="number-label" for="number">Número de celular/telefone:</label>
+    <input id="number" placeholder="(19)99999-9999"  type="number" min="2" max="14" required/>
+    <br>
+    <select id="dropdown">
+      <option value="sel1">ddd (19)</option>
+      <option value="sel2">outro</option>
+    </select>
+    <br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">celular</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">telefone</label><br>
+    <input type="checkbox" id="language1" name="language1" value="HTML">
+    <label for="language1">Eu sei HTML</label><br>
+    <input type="checkbox" id="language2" name="language2" value="CSS">
+    <label for="language2">Eu sei CSS</label><br>
+    <input type="checkbox" id="language3" name="language3" value="None">
+    <label for="language3"> Eu não sei nenhuma das opções anteriores</label><br>
+    <textarea>Eu aprendi os dois</textarea>
+    <br>
+    <input id="submit" type="submit"/>
+  </form>
+</body>
+</html>
